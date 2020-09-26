@@ -132,9 +132,12 @@ Return
 
 ; 左Alt + [ = 后退
 [::
-	if AltState = 2
+	if AltState
 	{
-		SendInput {LCtrl Up}
+		if AltState = 2
+		{
+			SendInput {LCtrl Up}
+		}
 		SendInput {LAlt Down}{Left Down}
 		AltState = 1
 	}
@@ -145,7 +148,7 @@ Return
 Return
 
 [ up::
-	if AltState = 2
+	if AltState
 	{
 		SendInput {Left Up}
 	}
@@ -157,9 +160,12 @@ Return
 
 ; 左Alt + ] = 前进
 ]::
-	if AltState = 2
+	if AltState
 	{
-		SendInput {LCtrl Up}
+		if AltState = 2
+		{
+			SendInput {LCtrl Up}
+		}
 		SendInput {LAlt Down}{Right Down}
 		AltState = 1
 	}
@@ -170,7 +176,7 @@ Return
 Return
 
 ] up::
-	if AltState = 2
+	if AltState
 	{
 		SendInput {Right Up}
 	}
