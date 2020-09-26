@@ -297,7 +297,7 @@ Return
 	}
 	else
 	{
-		SendInput {`}
+		SendInput {` Down}
 	}
 Return
 
@@ -322,7 +322,7 @@ Return
 	}
 	else
 	{
-		SendInput {1}
+		SendInput {1 Down}
 	}
 Return
 
@@ -346,7 +346,7 @@ Return
 	}
 	else
 	{
-		SendInput {2}
+		SendInput {2 Down}
 	}
 Return
 
@@ -370,7 +370,7 @@ Return
 	}
 	else
 	{
-		SendInput {3}
+		SendInput {3 Down}
 	}
 Return
 
@@ -394,7 +394,7 @@ Return
 	}
 	else
 	{
-		SendInput {4}
+		SendInput {4 Down}
 	}
 Return
 
@@ -418,7 +418,7 @@ Return
 	}
 	else
 	{
-		SendInput {5}
+		SendInput {5 Down}
 	}
 Return
 
@@ -443,7 +443,7 @@ Return
 	}
 	else
 	{
-		SendInput {6}
+		SendInput {6 Down}
 	}
 Return
 
@@ -468,7 +468,7 @@ Return
 	}
 	else
 	{
-		SendInput {7}
+		SendInput {7 Down}
 	}
 Return
 
@@ -492,7 +492,7 @@ Return
 	}
 	else
 	{
-		SendInput {8}
+		SendInput {8 Down}
 	}
 Return
 
@@ -516,7 +516,7 @@ Return
 	}
 	else
 	{
-		SendInput {9}
+		SendInput {9 Down}
 	}
 Return
 
@@ -540,7 +540,7 @@ Return
 	}
 	else
 	{
-		SendInput {0}
+		SendInput {0 Down}
 	}
 Return
 
@@ -564,7 +564,7 @@ Return
 	}
 	else
 	{
-		SendInput {-}
+		SendInput {- Down}
 	}
 Return
 
@@ -588,7 +588,7 @@ Return
 	}
 	else
 	{
-		SendInput {=}
+		SendInput {= Down}
 	}
 Return
 
@@ -602,3 +602,28 @@ Return
 		SendInput {= up}
 	}
 Return
+
+Backspace::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {Del Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {Backspace Down}
+	}
+Return
+
+Backspace up::
+	if AltState = 2
+	{
+		SendInput {Del Up}
+	}
+	else
+	{
+		SendInput {Backspace Up}
+	}
+Return
+
