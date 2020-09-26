@@ -285,3 +285,320 @@ Right up::
 		SendInput {Right Up}
 	}
 Return
+
+; ============ esc f1 ~ f12 ==========
+
+`::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {Esc Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {`}
+	}
+Return
+
+` up::
+	if AltState = 2
+	{
+		SendInput {Esc Up}
+	}
+	else
+	{
+		SendInput {` up}
+	}
+Return
+
+
+1::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F1 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {1}
+	}
+Return
+
+1 up::
+	if AltState = 2
+	{
+		SendInput {F1 Up}
+	}
+	else
+	{
+		SendInput {1 up}
+	}
+Return
+
+2::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F2 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {2}
+	}
+Return
+
+2 up::
+	if AltState = 2
+	{
+		SendInput {F2 Up}
+	}
+	else
+	{
+		SendInput {2 up}
+	}
+Return
+
+3::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F3 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {3}
+	}
+Return
+
+3 up::
+	if AltState = 2
+	{
+		SendInput {F3 Up}
+	}
+	else
+	{
+		SendInput {3 up}
+	}
+Return
+
+4::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F4 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {4}
+	}
+Return
+
+4 up::
+	if AltState = 2
+	{
+		SendInput {F4 Up}
+	}
+	else
+	{
+		SendInput {4 up}
+	}
+Return
+
+5::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F5 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {5}
+	}
+Return
+
+5 up::
+	if AltState = 2
+	{
+		SendInput {F5 Up}
+	}
+	else
+	{
+		SendInput {5 up}
+	}
+Return
+
+
+6::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F6 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {6}
+	}
+Return
+
+6 up::
+	if AltState = 2
+	{
+		SendInput {F6 Up}
+	}
+	else
+	{
+		SendInput {6 up}
+	}
+Return
+
+
+7::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F7 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {7}
+	}
+Return
+
+7 up::
+	if AltState = 2
+	{
+		SendInput {F7 Up}
+	}
+	else
+	{
+		SendInput {7 up}
+	}
+Return
+
+8::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F8 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {8}
+	}
+Return
+
+8 up::
+	if AltState = 2
+	{
+		SendInput {F8 Up}
+	}
+	else
+	{
+		SendInput {8 up}
+	}
+Return
+
+9::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F9 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {9}
+	}
+Return
+
+9 up::
+	if AltState = 2
+	{
+		SendInput {F9 Up}
+	}
+	else
+	{
+		SendInput {9 up}
+	}
+Return
+
+0::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F10 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {0}
+	}
+Return
+
+0 up::
+	if AltState = 2
+	{
+		SendInput {F10 Up}
+	}
+	else
+	{
+		SendInput {0 up}
+	}
+Return
+
+-::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F11 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {-}
+	}
+Return
+
+- up::
+	if AltState = 2
+	{
+		SendInput {F11 Up}
+	}
+	else
+	{
+		SendInput {- up}
+	}
+Return
+
+=::
+	if AltState = 2
+	{
+		SendInput {LCtrl Up}
+		SendInput {F12 Down}
+		SendInput {LCtrl Down}
+	}
+	else
+	{
+		SendInput {=}
+	}
+Return
+
+= up::
+	if AltState = 2
+	{
+		SendInput {F12 Up}
+	}
+	else
+	{
+		SendInput {= up}
+	}
+Return
