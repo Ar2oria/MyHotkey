@@ -44,6 +44,10 @@
 
 17. Command + Space = Alt + Space
 
+18. Command + 数字键 = F1 ~ F12
+
+19. Command + Backspace = Delete
+
 ### 特殊说明
 
 你也可以更改键帽获得外观上的一致性体验（逃
